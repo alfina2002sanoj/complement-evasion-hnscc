@@ -25,11 +25,11 @@ sources above.
 
 | Script | Description |
 |---|---|
-| `01_scRNA_QC_clustering.R` | Load GSE103322, QC, batch-effect correction, malignant cell clustering |
-| `02_complement_scoring.R` | Complement-evasion gene panel scoring |
-| `03_marker_genes_enrichment.R` | Cluster marker genes and GO enrichment |
-| `04_TCGA_bulk_analysis.R` | TCGA-HNSC download, complement/immune scoring |
-| `05_survival_analysis.R` | Kaplan-Meier and Cox regression |
+| `Scripts/01_scRNA_QC_clustering.R` | Load GSE103322, QC, batch-effect correction, malignant cell clustering |
+| `Scripts/02_complement_scoring.R` | Complement-evasion gene panel scoring |
+| `Scripts/03_marker_genes_enrichment.R` | Cluster marker genes and GO enrichment |
+| `Scripts/04_TCGA_bulk_analysis.R` | TCGA-HNSC download, complement/immune scoring |
+| `Scripts/05_survival_analysis.R` | Kaplan-Meier and Cox regression |
 
 ## Requirements
 
