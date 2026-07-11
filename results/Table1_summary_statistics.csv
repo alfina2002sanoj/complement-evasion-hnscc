@@ -1,0 +1,8 @@
+Test,Cohort_n,Statistic,p_value,Direction
+Complement-evasion across malignant cell states,"scRNA-seq, 2200 cells","chi-squared = 119.46 (df=6)",< 2.2e-16,Significant - states differ
+Complement-evasion vs. T-cell fraction,"scRNA-seq, 18 patients",rho = 0.31,0.18-0.21,"Positive, not significant"
+Complement-evasion vs. overall survival (unadjusted),"TCGA-HNSC, 518",HR = 1.14,0.27,Not significant
+Complement-evasion vs. overall survival (stage-adjusted),"TCGA-HNSC, 364",HR = 1.22,0.18,Not significant
+Immune score vs. overall survival (stage-adjusted, validation),"TCGA-HNSC, 364",HR = 0.83,0.003,Significant - as expected
+Complement-evasion vs. immune score,"TCGA-HNSC, 518",rho = 0.36,< 2.2e-16,"Significant, positive"
+GO Biological Process enrichment (cluster 6 markers),"scRNA-seq, top 100 genes",9 terms significant,all FDR < 0.05,Squamous differentiation + antimicrobial/humoral defense
