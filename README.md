@@ -36,6 +36,32 @@ flowchart TD
 **Figure 3 — High complement-evasion cluster shows squamous differentiation + antimicrobial defense enrichment**
 ![Figure 3](figures/Figure3_GO_enrichment.png)
 
+## Results Summary
+
+- **Malignant cells form 7 transcriptionally distinct states** that differ significantly in 
+  complement-evasion score (Kruskal-Wallis χ² = 119.46, df = 6, p < 2.2 × 10⁻¹⁶), after 
+  correcting for a strong patient-of-origin batch effect.
+
+- **The highest complement-evasion cluster** is marked by a squamous differentiation and 
+  antimicrobial/humoral immune defense gene program (9 significantly enriched GO terms, 
+  all FDR < 0.05), including genes with known immunomodulatory roles in cancer (LGALS3, 
+  SLPI, CEACAM6, IL1RN).
+
+- **Complement-evasion score does not independently predict overall survival** in TCGA-HNSC 
+  (n = 518), either unadjusted (HR = 1.14, p = 0.27) or adjusted for tumor stage (HR = 1.22, 
+  p = 0.18).
+
+- **Complement-evasion score is significantly positively correlated with immune infiltration** 
+  in bulk tumors (Spearman ρ = 0.36, p < 2.2 × 10⁻¹⁶) — the opposite direction from a simple 
+  immune-evasion hypothesis, and consistent (though weaker) in the single-cell cohort.
+
+- **Interpretation:** these findings support an adaptive resistance model, in which malignant 
+  cells in a differentiated squamous state co-opt normal epithelial defense programs in 
+  response to immune pressure, rather than complement regulation acting as a primary immune 
+  evasion mechanism.
+
+Full statistical details in [Table 1](#) and the [preprint](#) (link to be added once live).
+
 ## Data Sources
 
 - **Single-cell RNA-seq:** GEO accession [GSE103322](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103322) 
